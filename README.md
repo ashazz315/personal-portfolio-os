@@ -38,6 +38,16 @@ pnpm lint
 pnpm build
 ```
 
+## GitHub Pages
+
+This repository includes a GitHub Actions workflow that exports the Next.js app as static files and deploys it to GitHub Pages after every push to `main`.
+
+Public URL:
+
+```text
+https://ashazz315.github.io/personal-portfolio-os/
+```
+
 ## Notes
 
 Local resume source materials and generated diagnostics are intentionally ignored by Git. Public-facing project structure is documented in `docs/information-architecture.md`.
